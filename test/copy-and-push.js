@@ -1,5 +1,7 @@
 export function copyAndPush(arr, n) {
-  arr.push(n);
+  const newArray = [...arr];
 
-  return arr;
+  newArray.push(n);
+
+  return newArray;
 }
