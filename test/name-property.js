@@ -1,3 +1,3 @@
-export function nameProperty() {
-  
+export function getName() {
+
 }
