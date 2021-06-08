@@ -1,3 +1,5 @@
-export function copyAndPush(arr) {
-  
+export function copyAndPush(arr, n) {
+  arr.push(n);
+
+  return arr;
 }
