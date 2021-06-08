@@ -1,3 +1,3 @@
-export function getName() {
-
+export function getName(obj) {
+  return obj['name'];
 }
